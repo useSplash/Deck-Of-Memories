@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6418793379229525372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2646878576111891566}
+  - component: {fileID: 8414148808272028963}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2646878576111891566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6418793379229525372}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.08294891, y: -0.7113153, z: 0.004386927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8414148808272028963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6418793379229525372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30dd8b571bbc39d439fd41681e66591e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTrack
+    clip: {fileID: 8300000, guid: 43426677e1a6f0641876578cb018fd9d, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Flocessy
+    clip: {fileID: 8300000, guid: 152d0e4914144dc4a8c03aadf25ba4db, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Nuvema
+    clip: {fileID: 8300000, guid: 08719e92bea868d4aa6aad0ae0e9a570, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: RelicSong
+    clip: {fileID: 8300000, guid: b1e9cbc62051cbd499b31aa854ccab0e, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Driftveil
+    clip: {fileID: 8300000, guid: 1cc55fbfcb57da34bbb39e15ca259f97, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: SlideWhistleIn
+    clip: {fileID: 8300000, guid: 0db3ffb1493307e45b08ee7975b77b37, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: CardDeal
+    clip: {fileID: 8300000, guid: 358c6a2c836cdc746bf09f09ef25db2a, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchVariance: 0.05
+    loop: 0
+    source: {fileID: 0}
+  - name: CardFlip
+    clip: {fileID: 8300000, guid: bd88cc10cb2a78043b01098ac403f9b7, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0.05
+    loop: 0
+    source: {fileID: 0}
+  - name: PointsUp
+    clip: {fileID: 8300000, guid: fe668b608707c574fb5dbd55ceb7bdd7, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Level Complete
+    clip: {fileID: 8300000, guid: 77348ad890000b94782fe4d5772b9a0d, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Beep
+    clip: {fileID: 8300000, guid: 76b9fc3c200852446bab649e33a6340b, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Type
+    clip: {fileID: 8300000, guid: 4ce030becb1a31d4fb0b0fd2810a8d9d, type: 3}
+    volume: 0.5
+    pitch: 1
+    pitchVariance: 0.05
+    loop: 0
+    source: {fileID: 0}
+  - name: Collect
+    clip: {fileID: 8300000, guid: b3b8fdbf3f2e2a041b684527d1d32346, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0.01
+    loop: 0
+    source: {fileID: 0}
+  - name: CardRiffle
+    clip: {fileID: 8300000, guid: 9f85b6ff55765b641976c981c292e6ff, type: 3}
+    volume: 0.3
+    pitch: 1
+    pitchVariance: 0.05
+    loop: 0
+    source: {fileID: 0}
+  - name: AtingDalawa
+    clip: {fileID: 8300000, guid: 6dbf4df9f2eef7b4d85ecf16d8a7190a, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Mystical
+    clip: {fileID: 8300000, guid: 75507f7dc7c8d514cacaccfee73864b5, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0.05
+    loop: 0
+    source: {fileID: 0}
+  - name: Bells
+    clip: {fileID: 8300000, guid: 493c6254a260e654097c853cac0493b0, type: 3}
+    volume: 1
+    pitch: 1
+    pitchVariance: 0.05
+    loop: 0
+    source: {fileID: 0}
